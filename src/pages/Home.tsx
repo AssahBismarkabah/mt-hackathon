@@ -6,7 +6,12 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-indigo-600 to-purple-600">
+      <div
+  className="relative bg-cover bg-center"
+  style={{
+    backgroundImage: 'url("./src/images/photo.jpg")', boxShadow: '0 4px 8px rgba(79, 70, 229, 0.6)'
+  }}
+>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -15,11 +20,15 @@ export default function Home() {
             className="text-center"
           >
             <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-              Mountains Tech Hackathon
-            </h1>
-            <p className="mt-6 max-w-2xl mx-auto text-xl text-indigo-100">
-              Empowering innovators to build the next generation of technology solutions through collaborative funding and development.
-            </p>
+  Mountains Tech Hackathon
+</h1>
+
+
+<p className="mt-6 max-w-2xl mx-auto text-xl text-white">
+  Empowering innovators to build the next generation of technology solutions through collaborative funding and development.
+</p>
+
+
             <div className="mt-10 flex justify-center">
               <Link
                 to="/signup"
