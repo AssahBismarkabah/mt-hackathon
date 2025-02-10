@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 export default function Footer() {
@@ -45,7 +44,7 @@ export default function Footer() {
               <a href="#" className="text-gray-400 hover:text-white" title="LinkedIn">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://github.com/AssahBismarkabah/mt-hackathon" className="text-gray-400 hover:text-white" title="Github">
+              <a href="https://github.com/AssahBismarkabah/mt-africa" className="text-gray-400 hover:text-white" title="Github">
                 <Github className="h-6 w-6" />
               </a>
             </div>
@@ -54,7 +53,7 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Mountains Tech Hackathon. All rights reserved.
+            © {new Date().getFullYear()} Mountains Tech africa. All rights reserved.
           </p>
         </div>
       </div>

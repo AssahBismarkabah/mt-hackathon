@@ -20,7 +20,7 @@ export default function Home() {
             className="text-center"
           >
             <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-              Mountains Tech Hackathon
+              Mountains Tech africa
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-xl text-indigo-100">
               Empowering innovators to build the next generation of technology solutions through collaborative funding and development.
